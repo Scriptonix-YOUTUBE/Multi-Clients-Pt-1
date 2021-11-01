@@ -86,7 +86,7 @@ chat.TextScaled = true
 chat.TextSize = 14.000
 chat.TextWrapped = true
 chat.MouseButton1Click:Connect(function()
-	Chat('/e cchat' .. chattext.Text)
+	Chat('/e cchat ' .. chattext.Text)
 end)
 
 follow.Name = "follow"
