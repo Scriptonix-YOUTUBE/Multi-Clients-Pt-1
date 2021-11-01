@@ -90,6 +90,7 @@ chat.TextScaled = true
 chat.TextSize = 14.000
 chat.TextWrapped = true
 chat.MouseButton1Click:Connect(function()
+	Chat(chattext.Text)
 	Chat('/e cchat ' .. chattext.Text)
 end)
 
