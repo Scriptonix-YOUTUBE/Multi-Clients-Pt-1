@@ -20,6 +20,10 @@ local TextButton = Instance.new("TextButton")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 
+Frame.Selectable = true
+Frame.Active = true
+Frame.Draggable = true
+
 
 local function Chat(message)
 
@@ -140,13 +144,13 @@ lookatslowly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 lookatslowly.Position = UDim2.new(0.36528489, 0, 0.387434542, 0)
 lookatslowly.Size = UDim2.new(0, 103, 0, 27)
 lookatslowly.Font = Enum.Font.SourceSans
-lookatslowly.Text = "Look At Slowly"
+lookatslowly.Text = "Sit"
 lookatslowly.TextColor3 = Color3.fromRGB(0, 0, 0)
 lookatslowly.TextScaled = true
 lookatslowly.TextSize = 14.000
 lookatslowly.TextWrapped = true
 lookatslowly.MouseButton1Click:Connect(function()
-	Chat('/e clookatslowly')
+	Chat('/e csit')
 end)
 
 lookat.Name = "lookat"
@@ -155,13 +159,13 @@ lookat.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
 lookat.Position = UDim2.new(0.0492227077, 0, 0.670157075, 0)
 lookat.Size = UDim2.new(0, 115, 0, 27)
 lookat.Font = Enum.Font.SourceSans
-lookat.Text = "Look At"
+lookat.Text = "Stun"
 lookat.TextColor3 = Color3.fromRGB(0, 0, 0)
 lookat.TextScaled = true
 lookat.TextSize = 14.000
 lookat.TextWrapped = true
 lookat.MouseButton1Click:Connect(function()
-	Chat('/e clookat')
+	Chat('/e cstun')
 end)
 
 kill.Name = "kill"
