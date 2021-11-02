@@ -151,6 +151,7 @@ lookatslowly.TextScaled = true
 lookatslowly.TextSize = 14.000
 lookatslowly.TextWrapped = true
 lookatslowly.MouseButton1Click:Connect(function()
+        game.Players.LocalPlayer.Character.Humanoid.Sit = true
 	Chat('/e csit')
 end)
 
