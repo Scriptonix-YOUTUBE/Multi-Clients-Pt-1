@@ -96,7 +96,7 @@ end)
 
 follow.Name = "follow"
 follow.Parent = Frame_2
-follow.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+follow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 follow.Position = UDim2.new(0.0492227077, 0, 0.528795838, 0)
 follow.Size = UDim2.new(0, 115, 0, 27)
 follow.Font = Enum.Font.SourceSans
@@ -157,7 +157,7 @@ end)
 
 lookat.Name = "lookat"
 lookat.Parent = Frame_2
-lookat.BackgroundColor3 = Color3.fromRGB(196, 40, 28)
+lookat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 lookat.Position = UDim2.new(0.0492227077, 0, 0.670157075, 0)
 lookat.Size = UDim2.new(0, 115, 0, 27)
 lookat.Font = Enum.Font.SourceSans
