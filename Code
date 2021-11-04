@@ -167,6 +167,7 @@ lookat.TextScaled = true
 lookat.TextSize = 14.000
 lookat.TextWrapped = true
 lookat.MouseButton1Click:Connect(function()
+game.Players.LocalPlayer.Character.Humanoid.PlatformStand = not game.Players.LocalPlayer.Character.Humanoid.PlatformStand
 	Chat('/e cstun')
 end)
 
